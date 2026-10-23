@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
 }
 
 .icon {
@@ -75,4 +76,17 @@ button.cancel {
 
 .header-and-close {
   justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content , .modal{
+  gap: 10px;
+}
+
+.buttons {
+  gap: 5px;
 }
