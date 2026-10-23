@@ -56,4 +56,6 @@ ul {
 .logo-and-links, .notif-and-profile, ul {
   display: flex;
   flex-direction: row;
+  gap: 16px;
+  align-items: center;
 }
