@@ -39,3 +39,14 @@ body, .content {
   justify-content: center;
   align-items: center;
 }
+
+.left-links, .right-links {
+  padding: 0px;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
