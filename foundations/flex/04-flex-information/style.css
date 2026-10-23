@@ -5,6 +5,10 @@ body, .plant-info {
   align-items: center;
 }
 
+body {
+  gap: 32px;
+}
+
 .plant-info {
   max-width: 200px;
   flex-wrap: wrap;
@@ -14,6 +18,7 @@ body, .plant-info {
 .plants {
   display: flex;
   flex-direction: row;
+  gap: 52px;
 }
 
 img {
