@@ -29,3 +29,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.header, .footer, .left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+}
