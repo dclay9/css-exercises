@@ -71,3 +71,7 @@ button.cancel {
 .modal, .header-and-close, .buttons {
   display: flex;
 }
+
+.header-and-close {
+  justify-content: space-between;
+}
