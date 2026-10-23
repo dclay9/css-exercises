@@ -1,11 +1,11 @@
-body, .plants * {
+body, .plant-info {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.plants * {
+.plant-info {
   max-width: 200px;
   flex-wrap: wrap;
   text-align: center;
