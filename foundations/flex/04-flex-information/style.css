@@ -1,7 +1,8 @@
-body {
+body, .plant-1, .plant-2, .plant-3, .plant-4 {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .plants {
